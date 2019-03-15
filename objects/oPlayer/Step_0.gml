@@ -1,6 +1,6 @@
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+key_left = keyboard_check(vk_left) || keyboard_check (ord("A"));
+key_right = keyboard_check(vk_right) || keyboard_check (ord("D"));
+key_jump = keyboard_check_pressed(vk_up);
 
 var move = key_right - key_left;
 
@@ -10,7 +10,7 @@ vsp = vsp + grv;
 
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
-	vsp = -4;
+	vsp = -4.5;
 }
 
 
