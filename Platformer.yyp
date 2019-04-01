@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "4586c32c-120c-435a-abb3-493f1f67b29c",
+            "Value": {
+                "id": "8d7d11aa-f337-4969-bc8e-f9ec6b92161d",
+                "resourcePath": "objects\\oDead\\oDead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a6ecbc2-7823-43f3-9ea2-259a8fac3775",
             "Value": {
                 "id": "aaa8fcbf-70f5-48f7-9b93-1f04ab4d807f",

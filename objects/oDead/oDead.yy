@@ -1,41 +1,31 @@
 {
-    "id": "cab9c488-b269-4839-971b-d24101b34b72",
+    "id": "4586c32c-120c-435a-abb3-493f1f67b29c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oEnemy",
+    "name": "oDead",
     "eventList": [
         {
-            "id": "2551b8f9-9790-4e36-ab62-f078b92c1bc5",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "cab9c488-b269-4839-971b-d24101b34b72"
-        },
-        {
-            "id": "4818389a-c1ea-4b29-b7d6-d502f477f804",
+            "id": "46cdce1c-f957-4fed-8c7f-51d24e1fba98",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "cab9c488-b269-4839-971b-d24101b34b72"
+            "m_owner": "4586c32c-120c-435a-abb3-493f1f67b29c"
         },
         {
-            "id": "22bc6aec-a8a4-420b-8cf9-22b6edaae8b7",
+            "id": "a9537b5f-60f7-4f1b-a637-f938e7c2f077",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "cab9c488-b269-4839-971b-d24101b34b72"
+            "eventtype": 0,
+            "m_owner": "4586c32c-120c-435a-abb3-493f1f67b29c"
         }
     ],
-    "maskSpriteId": "dc76a4e9-ddfc-4263-b268-1653f3c89c9d",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "1e61fa68-df28-421e-a565-68ce62d6085f",
+    "spriteId": "08adaf5e-dd23-4614-a3fe-128691a55e12",
     "visible": true
 }
