@@ -1,5 +1,5 @@
 hsp = 3;
-vsp = 4;
+vsp = -3;
 grv = 0.3;
 done = 0;
 
