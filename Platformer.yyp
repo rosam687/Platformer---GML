@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "002f4d2d-cdde-4930-8d77-76537e327570",
+            "Value": {
+                "id": "29a70b04-fdbc-49e0-a011-997ce14df36d",
+                "resourcePath": "sprites\\sTiles\\sTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "08adaf5e-dd23-4614-a3fe-128691a55e12",
             "Value": {
                 "id": "f450b7d3-8b89-4308-8efb-f6b00a751989",
@@ -43,6 +51,22 @@
             "Value": {
                 "id": "1abbe57b-c752-40db-bc26-3d2a7ab18110",
                 "resourcePath": "sprites\\sEnemyR\\sEnemyR.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "12eb84d1-fad5-491b-8dae-106502d86719",
+            "Value": {
+                "id": "78f770a1-6867-4e83-bffd-aa5cc7ad4fd9",
+                "resourcePath": "scripts\\SlideTransition\\SlideTransition.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "17feb527-70db-413d-9f20-f0b5e8588b59",
+            "Value": {
+                "id": "798da882-a475-427e-af49-7126297c2d00",
+                "resourcePath": "sprites\\sTrigger\\sTrigger.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -95,11 +119,27 @@
             }
         },
         {
+            "Key": "3dfda128-c6e9-403b-bab0-61ee80ee431a",
+            "Value": {
+                "id": "01a8b671-f9b6-4a90-8d38-d4148f156f74",
+                "resourcePath": "objects\\oCamera\\oCamera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4586c32c-120c-435a-abb3-493f1f67b29c",
             "Value": {
                 "id": "8d7d11aa-f337-4969-bc8e-f9ec6b92161d",
                 "resourcePath": "objects\\oDead\\oDead.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5234b7ac-1191-4793-8d2e-2ac6920e729f",
+            "Value": {
+                "id": "244a6713-338a-4d7b-9f05-c6af2e681528",
+                "resourcePath": "tilesets\\tTiles\\tTiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -122,8 +162,16 @@
             "Key": "6317bf3f-71b6-47b5-a07e-9442119273e3",
             "Value": {
                 "id": "ea7379eb-2634-4bbb-8ca7-8690da1b5b54",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rOne\\rOne.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "67a4c5e7-9460-47d0-a74e-660d15615318",
+            "Value": {
+                "id": "52bcdc41-4ee8-4271-8c81-bd71f0958b30",
+                "resourcePath": "objects\\oLevelEnd\\oLevelEnd.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -183,6 +231,14 @@
             }
         },
         {
+            "Key": "a8d45abc-d0c8-4980-b53d-741e9bb430ff",
+            "Value": {
+                "id": "89d0e89c-da67-49b0-8eca-12f68b75351c",
+                "resourcePath": "objects\\oTransition\\oTransition.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ac398d2c-734b-4a84-848b-cdd22183ea93",
             "Value": {
                 "id": "1853ab3e-e5e1-4a5d-9e0f-cd3b1754be84",
@@ -236,6 +292,14 @@
                 "id": "6816ed4f-3dd5-4559-88b2-f36b0a52d9aa",
                 "resourcePath": "objects\\oPlayer\\oPlayer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c33372cb-1473-4151-a33a-995309978ec0",
+            "Value": {
+                "id": "1e75290e-ac50-41e0-91af-9fa9c463be5d",
+                "resourcePath": "rooms\\rTwo\\rTwo.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -304,7 +368,7 @@
         }
     ],
     "script_order": [
-        
+        "12eb84d1-fad5-491b-8dae-106502d86719"
     ],
     "tutorial": ""
 }
